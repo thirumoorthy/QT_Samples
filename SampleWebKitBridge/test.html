@@ -1,0 +1,31 @@
+<html>
+<title>Sample Html Application</title>
+<head>
+<script type="text/javascript" src="iApps.js"></script>
+<script type = "text/javascript">
+		function success()
+		{
+			alert("success");
+		}
+		function failure()
+		{
+			alert("Failure");
+		}
+		function show_Alert()
+		{
+			//alert(bosch.sayHello());
+			alert(bosch.sayHello(success,failure,10));
+		}
+		function show_Alert_two()
+		{
+			alert("Alert no 2 called");
+		}
+		//alert(bosch.sendSignal.connect(show_Alert_two);
+
+		//alert(bosch.sayHello(success,failure,10));
+	</script>
+</head>
+<body>
+	<input type = "button" onclick = "show_Alert()" value = "Show that box">
+</body>
+</html>
